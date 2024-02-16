@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    background-color: rgb(100, 100, 203);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-olhos {
+    display: flex;
+}
+
+#container-olhos img {
+    width: 100px;
+}
