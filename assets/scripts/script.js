@@ -7,8 +7,6 @@ window.addEventListener('mousemove', (event)=>{
     posX = event.clientX
     posY = event.clientY
 
-    
-
     olhos.forEach((olho) => {
         const olhoX = olho.getBoundingClientRect().left + olho.offsetWidth / 2;
         const olhoY = olho.getBoundingClientRect().top + olho.offsetHeight / 2;
